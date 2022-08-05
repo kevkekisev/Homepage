@@ -1,0 +1,196 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/6ec59ec71e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Kevin Kekisev Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"> </span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav_item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav_item">
+            <a href="#skills" class="nav__link">Abilites</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav_item">
+            <a href="#work" class="nav__link">My Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Introduction-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Kevin Kekisev</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Web Developer</p>
+      <img
+        src="img/profile.jpg"
+        alt="a picture of Jane Smith smiling"
+        class="intro--img"
+      />
+    </section>
+    <!-- Services-->
+    <section class="my-skills" id="skills">
+      <h2 class="section__title section__title-skills">Tech Knowledge</h2>
+      <div class="skills">
+        <div class="service">
+          <h3>The Tech I Use</h3>
+          <ul class="skill-list">
+            <li class="skill-item"><i class="fa-brands fa-html5"></i> HTML</li>
+            <li class="skill-item"><i class="fa-brands fa-css3"></i> CSS</li>
+            <li class="skill-item">
+              <i class="fa-brands fa-js"></i> JavaScript
+            </li>
+            <li class="skill-item">
+              <i class="fa-brands fa-react"></i> React.JS
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+    <!-- About Me-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Little About Me</h2>
+      <p class="section__subtitle--about">Who Am I?</p>
+
+      <div class="about-me__body">
+        <p>
+          Hey Again! I am currently studying Software Engineering in Open
+          University Part-Time and learning to code in Front-End Development.
+        </p>
+        <p>
+          Other than coding in my free time, I love going to Gym where I spend a
+          good chunk of my time. On the other hand, i have developed this funny
+          mindset where i <em>must</em> learn all there is to know just to let
+          my creative brain go exploring every possibility in the world. I have
+          a naturally curious brain and the questions <em>how</em> &
+          <em>why</em> drive me to learn more and more each day!
+        </p>
+
+        <p>
+          <em
+            >Oh, and I love NASA - Hubble Telescope got me deeply interested in
+            the Deep Space.
+          </em>
+        </p>
+      </div>
+
+      <!-- <img
+        src="img/dev-jane-02.jpg"
+        alt="Jane leaning against the bus"
+        class="about-me__img"
+      /> -->
+    </section>
+
+    <!-- Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My Projects</h2>
+      <p class="section__subtitle section__subtitle--work">Selection of Work</p>
+
+      <div class="portfolio">
+        <div>
+          <a href="https://deluxe-kataifi-4f0e9c.netlify.app/">
+            <img class="portfolio-pic" src="img/Webpage-clone.png" />
+          </a>
+          <h3>Webpage Clone</h3>
+          <a
+            class="portfolio-link"
+            href="https://deluxe-kataifi-4f0e9c.netlify.app/"
+            >DEMO</a
+          >
+          <a
+            class="portfolio-link"
+            href="https://github.com/kevkekisev/Webpage-Clone"
+            >GITHUB</a
+          >
+        </div>
+        <div>
+          <a href="https://shimmering-shortbread-d52de4.netlify.app/"
+            ><img class="portfolio-pic" src="/img/e-commerce.png"
+          /></a>
+          <h3>E-COMMERCE</h3>
+          <a
+            class="portfolio-link"
+            href="https://shimmering-shortbread-d52de4.netlify.app/"
+            >DEMO</a
+          >
+          <a
+            class="portfolio-link"
+            href="https://github.com/kevkekisev/e-commerce-v1"
+            >GITHUB</a
+          >
+        </div>
+        <div>
+          <a href="https://github.com/kevkekisev/travel-journal-v2">
+            <img class="portfolio-pic" src="img/travel-journal.png" />
+          </a>
+          <h3>Travel Journal</h3>
+          <a
+            href="https://effulgent-starlight-853f78.netlify.app/"
+            class="portfolio-link"
+            >DEMO</a
+          >
+          <a
+            href="https://github.com/kevkekisev/travel-journal-v2"
+            class="portfolio-link"
+            >GITHUB</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <!-- Replace your own email-->
+      <a href="mailto:kevkekisev@gmail.com" class="footer__link"
+        >kevkekisev@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="https://github.com/kevkekisev" class="social-list__link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/kevin-kekisev-77b678200/"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
