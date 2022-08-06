@@ -533,4 +533,8 @@ header {
   .portfolio-project img {
     object-fit: contain;
   }
+
+  .portfolio-project h3 {
+    padding-bottom: 0.5em;
+  }
 }
