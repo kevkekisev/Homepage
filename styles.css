@@ -505,3 +505,20 @@ header {
   background-color: #111;
   color: #fff;
 }
+
+@media (max-width: 495px) {
+  .skill-item {
+    margin: 1em;
+  }
+
+  .skill-item + .skill-item {
+    margin-left: 0;
+  }
+
+  .skill-item {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
