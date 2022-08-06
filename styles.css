@@ -525,4 +525,12 @@ header {
   .skills {
     padding: 2em;
   }
+
+  .portfolio-project {
+    margin-bottom: 1em;
+  }
+
+  .portfolio-project img {
+    object-fit: contain;
+  }
 }
