@@ -508,17 +508,21 @@ header {
 
 @media (max-width: 495px) {
   .skill-item {
-    margin: 1em;
+    padding: 0.5em;
   }
 
   .skill-item + .skill-item {
     margin-left: 0;
   }
 
-  .skill-item {
+  .skill-list {
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+  }
+
+  .skills {
+    padding: 2em;
   }
 }
