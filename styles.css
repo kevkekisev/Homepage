@@ -520,7 +520,6 @@ header {
 
   .portfolio-pic {
     margin-top: 1em;
-    min-width: 350px;
   }
 }
 
@@ -558,5 +557,13 @@ header {
 
   .portfolio-project h3 {
     padding-bottom: 0.5em;
+  }
+}
+
+@media (max-width: 350px) {
+  .portfolio-link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }
