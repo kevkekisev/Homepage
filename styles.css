@@ -372,7 +372,6 @@ header {
   .section__title--about {
     grid-area: title;
   }
-
   .section__subtitle--about {
     grid-column: 1/-1;
     grid-row: 2;
@@ -382,7 +381,6 @@ header {
     padding-left: 1em;
     padding-right: calc(200px + 4em);
   }
-
   .about-me__img {
     grid-area: img;
     position: relative;
