@@ -69,6 +69,7 @@ img {
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+  margin: 0 auto;
 }
 
 .btn:hover {
@@ -355,39 +356,6 @@ header {
   max-width: 750px;
 }
 
-/* .about-me__img {
-  box-shadow: var(--bs);
-} */
-
-/* @media (min-width: 600px) {
-  .about-me {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    grid-template-areas:
-      "title img"
-      "subtitle img"
-      "text img";
-    grid-column-gap: 2em;
-  }
-  .section__title--about {
-    grid-area: title;
-  }
-  .section__subtitle--about {
-    grid-column: 1/-1;
-    grid-row: 2;
-    position: relative;
-    left: -1em;
-    width: calc(100% + 2em);
-    padding-left: 1em;
-    padding-right: calc(200px + 4em);
-  }
-  .about-me__img {
-    grid-area: img;
-    position: relative;
-    z-index: 2;
-  }
-} */
-
 .my-work {
   background-color: var(--clr-dark);
   color: var(--clr-light);
@@ -398,30 +366,6 @@ header {
   color: var(--clr-accent);
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
-}
-
-.portfolio {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 10px;
-}
-
-.portfolio__item {
-  background: var(--clr-accent);
-}
-.portfolio__img {
-  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
-}
-
-.portfolio__item:focus {
-  position: relative;
-  z-index: 2;
-}
-
-.portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
-  transform: scale(1.2);
-  opacity: 0.75;
 }
 
 .footer {
@@ -465,18 +409,6 @@ header {
   padding: 0.5em;
 }
 
-.portfolio-item-individual {
-  padding: 0 2em 2em;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.portfolio-item-individual p {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .portfolio-pic {
   width: 440px;
   height: 200px;
@@ -486,9 +418,14 @@ header {
 
 .portfolio {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+}
+.portfolio-project {
+  margin: 1rem;
 }
 
 .portfolio h3 {
@@ -558,7 +495,7 @@ header {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
   .portfolio-link-container {
     display: flex;
     flex-direction: column;
