@@ -324,13 +324,14 @@ header {
 
 .skill-list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   text-align: center;
 }
 
 .service {
-  max-width: 500px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -436,8 +437,8 @@ header {
   border: solid white;
   margin: 1.5em;
   padding: 0.5em 1.5em;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: transparent;
   border-radius: 10px;
   cursor: pointer;
   font-family: inherit;
